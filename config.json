@@ -1,0 +1,5 @@
+{
+    "SITE_PORT": 80,
+    "SOCKET_PORT": 8080,
+    "SOCKET_URL": "ws://localhost:8080"
+}

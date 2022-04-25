@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #424242;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 0;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url("https://cdn.discordapp.com/attachments/809872315973632016/854772042728865872/Berk_20180101_135508.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    filter: blur(10px);
+
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.warn {
+    position: relative;
+    top: 30%
+}
+
+.warn > h1 {
+    font-size: 75px;
+    margin: 15px;
+    text-shadow: 2px 2px black;
+    color: #1b30ac;
+}
+
+.warn > p {
+    margin: 5px;
+}
+
+.warn > a {
+    text-decoration: none;
+    color: #1b30ac;
+    margin: 15px;
+    position: relative;
+    top: 10px;
+}
+
+.warn > a:hover {
+    text-decoration: underline;
+}
